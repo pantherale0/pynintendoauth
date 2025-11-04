@@ -31,16 +31,16 @@ DEV_REQUIREMENTS = [
 ]
 
 setuptools.setup(
-    name='pynintendoparental',
+    name='pynintendoauth',
     version=version,
-    description='A Python module to interact with Nintendo Parental Controls',
+    description='A Python module to provide APIs to authenticate with Nintendo services.',
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url='http://github.com/pantherale0/pynintendoparental',
+    url='http://github.com/pantherale0/pynintendoauth',
     author='pantherale0',
     license='MIT',
     package_data={
-        'pynintendoparental': [
+        'pynintendoauth': [
             'py.typed',
         ]
     },
