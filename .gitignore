@@ -5,6 +5,7 @@ __pycache__/
 
 # C extensions
 *.so
+!pynintendoauth/libs/*.so
 
 # Distribution / packaging
 .Python
